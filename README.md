@@ -25,16 +25,16 @@ graph TD;
 
 |  main   |               |    Jacob,even  |
 | ------------------ | ------------- | ------------ |
-|  no arguments   | Main calls all class   |           |  
+|  no arguments   | Main calls class   |           |  
 ***
 |   invintory_desplay  |               |    Jacob    |
 | ------------------ | ------------- | ------------ |
-|    |  |              |
+|  accepts invintory  | shows all items in invintory |       returns invintory       |
 
 ***
 |   Add_invintory  |               |    Jacob    |
 | ------------------ | ------------- | ------------ |
-|    |   |           |
+|  accepts invintory  | adds item,number,and price to invintory  |     returns the new invintory     |
 
 ***
 |  save_invintory   |               |   jacob     |
@@ -43,7 +43,7 @@ graph TD;
 ***
 |  Exit_retailltem   |               |  jacob      |
 | ------------------ | ------------- | ------------ |
-|     |    |     |       
+|  accepts nothing   |  returns to main  |  returns nothing   |       
 ***
 |  view_cart   |               |    even    |
 | ------------------ | ------------- | ------------ |
