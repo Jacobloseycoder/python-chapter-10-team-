@@ -25,7 +25,7 @@ graph TD;
 
 |  main   |               |    Jacob,even  |
 | ------------------ | ------------- | ------------ |
-|  no arguments   | Main calls class   |           |  
+|  no arguments   | Main calls class   |    returns nothing       |  
 ***
 |   invintory_desplay  |               |    Jacob    |
 | ------------------ | ------------- | ------------ |
@@ -39,7 +39,7 @@ graph TD;
 ***
 |  save_invintory   |               |   jacob     |
 | ------------------ | ------------- | ------------ |
-|     |   |              |
+|  accept invintory   |  saves invintory  |      returns new_inventory        |
 ***
 |  Exit_retailltem   |               |  jacob      |
 | ------------------ | ------------- | ------------ |
