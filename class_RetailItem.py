@@ -9,19 +9,24 @@ class retail:
 toadd = []
 def add():
     #makes a list of things to be added
+    #asks for the items needed parts
     new_item = input('enter the items name')
     new_unit = input('enter the number of the item')
     new_price = input('enter the items price')
+    #checks if name in only leters and price and units is only numbers
     if new_unit.isdigit() == True:
         if new_unit.isdigit() == True:
             if new_item.isalpha() == True:
+                #adds the item
                 toadd.append(new_item)
                 toadd.append(new_unit)
                 toadd.append(new_price)
+                #let user add another
                 agion = input('do you want to add another? y/n :')
-                if agion == 'y':
+                #checks if they say yes or no
+                if agion == 'y' or agion == 'Y':
                     add()
-                elif agion == 'n':
+                elif agion == 'n' or agion == 'N':
                     menu()
                 else:
                     print('not a option')
@@ -36,8 +41,17 @@ def add():
         print('not a number')
         add()
 def save():
-    pass
     #saves thing to item.txt
+    popopopo = []
+    #opens file
+    itemlist = open('items.txt', 'r+')
+    while toadd != popopopo:
+        #adds the items
+        itemlist.write(toadd[0,1,2])
+        #deleats the items
+        del toadd[0]
+        del toadd[0]
+        del toadd[0]
 
 def end():
     #ends/gos back to main
