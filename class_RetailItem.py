@@ -5,8 +5,9 @@ class retail:
         self.price = price
     def printer(self):
         print(self.item, self.unit, self.price)
+
+toadd = []
 def add():
-    toadd = []
     #makes a list of things to be added
     new_item = input('enter the items name')
     new_unit = input('enter the number of the item')
