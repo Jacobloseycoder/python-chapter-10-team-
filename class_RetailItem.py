@@ -11,8 +11,8 @@ def add():
     #makes a list of things to be added
     #asks for the items needed parts
     new_item = input('enter the items name')
-    new_unit = input('enter the number of the item')
-    new_price = input('enter the items price')
+    new_unit = int(input('enter the number of the item'))
+    new_price = int(input('enter the items price'))
     #checks if name in only leters and price and units is only numbers
     if new_unit.isdigit() == True and new_unit > 0:
         if new_price.isdigit() == True and new_price > 0:
